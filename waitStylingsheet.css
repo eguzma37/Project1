@@ -1,0 +1,69 @@
+.title{
+  width: 700px;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+  color: yellow;
+  font-family: 'Nanum Gothic Coding', monospace;
+  object-position: left;
+  text-align: center;
+  font-size: 30px;
+  text-indent: 10px
+  text-transform: full-width capitalize;
+}
+
+.image1{
+  position: fixed;
+  object-position: right;
+  margin-right: inherit;
+  left: 500px;
+}
+
+
+.image2{
+  position: sticky;
+}
+
+
+.image3{
+  position: relative;
+  object-fit: scale-down;
+  float: right;
+}
+
+.image4{
+  position: relative;
+  object-fit: scale-down;
+  float: inherit;
+}
+
+
+
+.waitPoem{
+  width: 700px;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+  color: #FA0ED3;
+  font-family: 'Nanum Gothic Coding', monospace;
+  object-position: left;
+  text-align: left;
+  font-size: 16px;
+  text-indent: 10px;
+
+}
+
+
+
+
+.footer{
+  text-transform: capitalize;
+  color: white;
+  font-size: 14px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  text-align: center;
+  width: 700px;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+}

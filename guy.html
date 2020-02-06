@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<meta charset="UTF-8">
+
+<link href="guyStylingsheet.css" rel="stylesheet">
+
+<header>
+  <b>
+  What's going on my guy?
+</b>
+</header>
+
+<p>
+  <script>
+
+  function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+  }
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
+
+  </script>
+
+  <body onload="startTime()">
+
+    <div id="txt"></div>
+
+  </p>
+
+  <div class = "image1">
+    <img src = "guyImage.jpeg" width="200" height= "200" alt= "Jersey Shore frame">
+  </div>
+
+  <div class = "image2">
+    <img src = "guyImage2.jpg" alt= "Intellectual Meme">
+  </div>
+
+
+<div class = "guyPoem">
+  <body>
+    <p>
+    My guy
+    </p>
+    My dude
+    <br>
+    </br>
+    Where did my guy come from?
+    <br>
+    </br>
+    You’re my go to
+    <br>
+    </br>
+    HEYYEYAAEYAAAEYAEYAA
+    <br>
+    </br>
+    I need time
+    <br>
+    </br>
+    Google was a guy
+    <br>
+    </br>
+    hugging a guy
+    <br>
+    </br>
+    You guys
+    <br>
+    </br>
+    My dude
+    <div class = "image3">
+      <img src = "guyImage3.jpg" width="100" height= "100" alt= "BUT WAIT THERE'S MORE!">
+    </div>
+    When a girl calls you my dude
+    <br>
+    </br>
+  </div>
+</body>
+
+
+
+<div class = "image4">
+  <img src = "guyImage4.png" width= 25% height= 25% alt= "Golden retriever and deer">
+</div>
+<footer>
+  <div class = "footer">
+    <a href="flarf.html"> Return to Home </a>
+  </div>
+</footer>
+
+</html>

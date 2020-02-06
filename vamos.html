@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="vamosStylingsheet.css" rel="stylesheet"></a>
+
+<div style="background-image:url('vamos.background.jpg')">
+
+  <div class = "image2">
+    <img src = "vamos.image2.jpeg" width="200" height= "150" alt= "Nos vamos, Nos quedamos, o que hacemos?">
+  </div>
+
+  <header>
+    <div class = "title"
+    <b>
+      Vamos o que?
+    </b>
+  </div>
+</header>
+
+<body>
+
+  <div class = "poem">
+    Vamos o que
+    <br>
+  </br>
+  What is the definition of vamos?
+  <br>
+</br>
+Vamos La playa?
+<br>
+</br>
+What is the definition of rapido?
+<br>
+</br>
+Vamos! I’m ready.
+<br>
+</br>
+Let’s go!
+<div class = "image4">
+  <img src = "vamos.image4.jpeg" width="200" height= "150" alt= "Red backdrop wtih a focus on contaier with watermelon">
+</div>
+<br>
+</br>
+Vámonos. Estoy cansado
+<br>
+</br>
+Let’s go. I’m tired.
+<br>
+</br>
+Vamos a la fiesta en casa de Gustavo
+<br>
+</br>
+Vamos a ir a bailar, te guste o no.
+<br>
+</br>
+INCREÍBLE
+<br>
+</br>
+
+</div>
+</body>
+
+
+<div class = "image3">
+  <img src = "vamos.image3.jpg" width="200" height= "150" alt= "Spongebob sitting at the diner">
+</div>
+
+<br>
+</br>
+
+<div style = "image1">
+
+  <img src = "vamos.image.jpg" width="200" height= "150" alt= "Spanish Meme-- Senior de los cielos">
+
+</div>
+
+<!-- Javascript to display clock
+-->
+<div id="MyClockDisplay" class="clock" onload="showTime()">
+</div>
+
+<script>
+
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+
+</script>
+
+<aside>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+</aside>
+
+<footer>
+  <div class = "footer">
+    <a href="flarf.html"> Return to Home </a>
+  </div>
+</footer>
+
+</html>

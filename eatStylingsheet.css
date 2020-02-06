@@ -1,0 +1,85 @@
+.title{
+  width: 700px;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+  color: #FA0ED3;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 16px;
+  text-indent: 10px
+}
+
+.image{
+  font-size: 16px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  position: absolute;
+  object-position: right;
+}
+
+.image2{
+  font-size: 16px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  position: absolute;
+  object-position: center;
+  left: 1000px;
+}
+
+.image3{
+  font-size: 16px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  position: absolute;
+  object-position: center;
+  left: 800px;
+  top: 300px;
+}
+
+
+.image4{
+  font-size: 16px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  position: absolute;
+  object-position: center;
+  left: 1000px;
+  bottom: 40px;
+}
+
+.txt{
+  width: 700px;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+  color: yellow;
+  font-family: 'Inconsolata', monospace;
+  float:right;
+  text-align: center;
+  font-size: 40px;
+  text-indent: 10px;
+}
+
+
+.eatPoem{
+  background-image: url(clouds.jpg);
+  background-repeat: repeat;
+  width: 700px;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+  color: purple;
+  font-family: 'Nanum Gothic Coding', monospace;
+  object-position: left;
+  text-align: center;
+  font-size: 16px;
+  text-indent: 10px;
+}
+
+.footer{
+  text-transform: capitalize;
+  color: white;
+  font-size: 14px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  position: fixed;
+  width: 700px;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+}

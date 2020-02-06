@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<meta charset="UTF-8">
+
+<link href="eatStylingsheet.css" rel="stylesheet">
+
+<div class = "title">
+<header>
+  <b>
+    Want to go eat?
+  </b>
+</header>
+</div>
+
+<div style="background-image:url('clouds.jpg');">
+
+
+  <div class = "image2">
+  <img src = "eat.image2.jpg" width="200" height= "150" class= "responsive">
+  </div>
+
+  <div class = "image3">
+  <img src = "eat.image3.jpg" width="200" height= "220" alt="Five elderly women">
+  </div>
+
+  <div class = "image4">
+  <img src = "eat.image4.jpg" width="200" height= "220" alt="Spongebob Meme">
+  </div>
+
+
+  <script>
+
+  function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+  }
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
+
+  </script>
+
+  <body onload="startTime()">
+
+  <div id="txt"></div>
+
+
+<div class = "eatPoem">
+  <body>
+    <br>
+  </br>
+    Eat, go eat, go eating
+    <br>
+  </br>
+  What do you want to eat!?!
+  <br>
+</br>
+Want to go & want to eat
+Are you gonna eat that?
+<br>
+</br>
+Eat before you die
+You need to eat
+<br>
+</br>
+All-You-Can-Eat Buffets Really Make Their Money
+<br>
+</br>
+“Let’s go eat!” in Spanish
+<br>
+</br>
+Where do you want to eat?
+<br>
+</br>
+Where do you want to eat tonight?
+<br>
+</br>
+Nope.
+<br>
+</br>
+</body>
+</div>
+
+<div class = "image">
+<img src = "eat.image.jpg" width="200" height= "150" alt= "Pig close up" class= "responsive">
+</div>
+
+
+<footer>
+  <div class = "footer">
+    <a href="flarf.html"> Return to Home </a>
+  </div>
+</footer>
+
+</html>

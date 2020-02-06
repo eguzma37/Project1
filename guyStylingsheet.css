@@ -1,0 +1,85 @@
+.header{
+  color: blue;
+  font-family: 'Nanum Gothic Coding', monospace;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: justify;
+  text-transform: capitalize;
+  text-shadow: 4px;
+  text-emphasis: 4x;
+  background-color: grey;
+  width: 700px;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+}
+
+.guyPoem{
+  background-color: grey;
+  background-repeat: repeat;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+  color: blue;
+  font-family: 'Nanum Gothic Coding', monospace;
+  object-position: left;
+  text-align: center;
+  font-size: 16px;
+  text-indent: 10px;
+}
+
+.image1{
+  object postion: right;
+  color: black;
+  font-size: 14px;
+  left: 20px;
+}
+
+.image2{
+  float: right;
+  color: black;
+  font-size: 14px;
+  right: 60px;
+  bottom: 25px;
+  resize: both;
+  position: sticky;
+}
+
+.image3{
+  object postion: right;
+  color: black;
+  font-size: 14px;
+}
+
+.image4{
+  object postion: right;
+  color: black;
+  font-size: 14px;
+}
+
+
+
+.txt{
+  width: 700px;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+  color: yellow;
+  font-family: 'Nanum Gothic Coding', monospace;
+  float:right;
+  text-align: center;
+  font-size: 40px;
+  text-indent: 10px;
+}
+
+.footer{
+  text-transform: capitalize;
+  color: white;
+  font-size: 14px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  text-align: center;
+  width: 700px;
+  padding: 30px;
+  border: 15px;
+  margin: 20;
+}
